@@ -9,7 +9,6 @@ const About = () => {
     <div className="flex justify-center items-center h-screen">
       <h1 className="text-3xl text-white">VIJAY PAUL</h1>
     </div>
-    console.log("About updated");
   )
 }
 
