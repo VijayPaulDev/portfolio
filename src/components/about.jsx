@@ -65,7 +65,7 @@ useGSAP(()=>{
       new fun technologies and experimenting with creative ideas.
       </span>
       <br /><br />
-      Outside of programming, I workout, video edit, Play video games and tennis.</p>
+      Outside of programming, I workout, Video edit, Play video games and tennis.</p>
       </div>
     </div>
     </>
