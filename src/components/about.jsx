@@ -43,7 +43,7 @@ useGSAP(()=>{
     <section className="home flex flex-col justify-center items-center h-screen">
       <h1 className="name text-9xl text-white -translate-x-90 -translate-y-30 tracking-widest font-Rale font-thin">VIJAY PAUL</h1>
       <p className="title text-white -translate-x-127 -translate-y-30 text-2xl mt-7 font-Gsans">Front-End / Motion / Interactive UI Developer</p>
-      <p className="title text-white -translate-x-140 translate-y-30 text-2xl mt-7 font-Gsans">For business inquiries, email me at <br></br>vjpaul03@gmail.com</p>
+      <p className="title text-white -translate-x-140 translate-y-60 text-2xl mt-7 font-Gsans">For business inquiries, email me at <br></br>vjpaul03@gmail.com</p>
       </section>
       <div>
       <p className="about text-white translate-x-280 -translate-y-115 mt-7 font-Rale text-3xl">ABOUT ME
