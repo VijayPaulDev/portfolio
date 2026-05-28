@@ -3,30 +3,8 @@ import SplitText from "gsap/SplitText.js";
 import gsap from "gsap";
 import { useRef } from "react";
 import { useMediaQuery } from "react-responsive";
-import Lenis from "@studio-freight/lenis";
-import { useEffect } from "react";
-
 
 const About = () => {
-
-useEffect(() => {
-    const lenis = new Lenis({
-      duration: 1.2,
-      smoothWheel: true,
-      smoothTouch: false
-    });
-
-    function raf(time) {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    }
-
-    requestAnimationFrame(raf);
-
-    return () => lenis.destroy();
-  }, []);
-
-
 
 useGSAP(()=>{
   const nameSplit = new SplitText('.name', { type: 'chars, words'});
@@ -74,10 +52,10 @@ useGSAP(()=>{
       <p className="about text-white translate-x-280 -translate-y-115 mt-4 font-Rale text-[20px]"> 
       After completing my B.Tech and MBA, I shifted focus toward independent work,
       <span className="block mt-2">
-      including TSPSC preparation, Content Creation, and continued self-driven learning in
+      including Govt-exam preparation, Content Creation, and continued self-driven
       </span>
       <span>
-       web and interactive development. 
+       learning in web development and interactive motion design. 
       </span>
       <br /><br />
       My main focus is web development, and I have worked on
