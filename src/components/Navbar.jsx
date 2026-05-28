@@ -15,7 +15,7 @@ useGSAP(()=>{
     opacity: 0,
     duration: 0.5,
     ease: 'expo.in',
-    stagger: 0.05,
+    stagger: 0.01,
     filter: "blur(10px)"
   })
 
@@ -32,7 +32,7 @@ useGSAP(()=>{
           <a
             href="home"
             className="font-Rale relative text-white/60 text-xl tracking-widest transition-all duration-300 hover:text-white
-             hover:drop-shadow-[0_0_12px_white] after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px]
+             hover:drop-shadow-[0_0_12px_white] after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-0.5
               after:bg-white after:transition-all after:duration-300 hover:after:w-full"
           >
             HOME
@@ -44,7 +44,7 @@ useGSAP(()=>{
             href="/"
             className="font-Rale relative text-white/60 text-xl tracking-widest transition-all
              duration-300 hover:text-white hover:drop-shadow-[0_0_12px_white] after:content-[''] after:absolute
-              after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full"
+              after:left-0 after:-bottom-1 after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 hover:after:w-full"
           >
             WORKS
           </a>
