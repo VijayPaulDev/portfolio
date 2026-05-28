@@ -26,10 +26,3 @@ body {
 @utility col-center {
     @apply flex flex-col justify-center items-center;
 }
-.navbar a{
-    position: relative;
-    font-size: 28px;
-    color: white;
-    font-weight: 330;
-    margin-left: 50px;
-}
