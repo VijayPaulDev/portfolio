@@ -51,8 +51,8 @@ const Work = () => {
                 1- Mocktails Brochure Website :
               </h2>
               <div className='project-paragraphs text-base md:text-lg text-neutral-400 leading-relaxed space-y-6'>
-                <p>- Engineered an immersive, high-end digital brochure website for a luxury cocktail lounge using JavaScript and GSAP (ScrollTrigger & SplitText).</p>
-                <p>- Utilized GSAP SplitText to break down headers into individual characters and words, orchestrating premium stagger animations during user scroll transitions.</p>
+                <p>- Engineered an brochure website for a luxury cocktail lounge using JavaScript and GSAP (ScrollTrigger & SplitText).</p>
+                <p>- Utilized GSAP SplitText to break  individual characters and words, showing premium stagger animations during user scroll transitions.</p>
                 <p>- Implemented GSAP ScrollTrigger to control complex timeline animations, tying user scroll depth to smooth CSS grid transformations, parallax imagery, and reveal effects.</p>
               </div>
             </div>
@@ -69,7 +69,7 @@ const Work = () => {
               <div className='project-paragraphs text-base md:text-lg text-neutral-400 leading-relaxed space-y-6'>
                 <p>- Developed a type-safe, responsive weather application utilizing React and TypeScript to deliver real-time, global forecast metrics.</p>
                 <p>- Integrated the OpenWeatherAPI via Axios to asynchronously fetch, structure, and render dynamic weather data based on user input.</p>
-                <p>- Leveraged TypeScript interfaces to strictly define API response schemas, minimizing runtime errors and ensuring code maintainability.</p>
+                <p>- Leveraged TypeScript interfaces to strictly define API response, minimizing runtime errors and ensuring code maintainability.</p>
               </div>
             </div>
             <div className='image-container w-full flex justify-center lg:justify-end'>
@@ -83,7 +83,7 @@ const Work = () => {
                 3- Todolist Application :
               </h2>
               <div className='project-paragraphs text-base md:text-lg text-neutral-400 leading-relaxed space-y-6'>
-                <p>- A minimalist task management app built to use DOM manipulation, state persistence, and clean user interactions.</p>
+                <p>- A minimalist task management app built to use DOM manipulation and clean user interactions.</p>
                 <p>- Usage of React useState, Tailwind and TypeScript Libraries were used in the making of the application.</p>
                 <p>- Emphasizes usage of TypeScript by static typing to the language to catch errors before runtime.</p>
               </div>
