@@ -5,6 +5,7 @@ import Lenis from "@studio-freight/lenis";
 import { useEffect } from "react";
 import About from './components/About.jsx';
 import Navbar from './components/Navbar.jsx';
+import Work from './components/Work.jsx';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -31,6 +32,7 @@ const App = () => {
     <main>
       <Navbar />
       <About />
+      <Work />
     </main>
   )
 }
