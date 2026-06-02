@@ -21,7 +21,7 @@ const Work = () => {
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: project,
-          start: 'top 65%',
+          start: 'top 55%',
           end: 'bottom 20%',
           toggleActions: 'play none none reverse', 
         }
@@ -40,7 +40,7 @@ const Work = () => {
         
         <div className='relative mb-16 md:mb-24'>
           <h1 className='text-5xl md:text-6xl font-bold'>My Works</h1> 
-          <span className="block mt-4 h-px w-full bg-white/30"></span>
+          <span className="block mt-4 h-px w-full bg-white/60"></span>
         </div> 
 
         <div className='flex flex-col gap-y-32'>

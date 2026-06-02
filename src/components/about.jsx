@@ -45,11 +45,11 @@ useGSAP(()=>{
       <p className="title text-white -translate-x-127 -translate-y-30 text-2xl mt-7 font-Gsans">Front-End / Motion / Interactive UI Developer</p>
       <p className="title text-white -translate-x-140 translate-y-60 text-2xl mt-7 font-Gsans">For business inquiries, email me at <br></br>vjpaul03@gmail.com</p>
       
-      
+      <div>
       <p className="about text-white translate-x-280 -translate-y-40 font-Rale text-3xl">ABOUT ME
         <span className="block mt-3 h-px w-screen bg-white/60"></span>
       </p>
-      <p className="about text-white translate-x-135 -translate-y-33 font-Rale text-[20px]"> 
+      <p className="about text-white translate-x-280 -translate-y-33 font-Rale text-[20px]"> 
       After completing my B.Tech and MBA, I shifted focus toward independent work,
       <span className="block mt-2">
       including Govt-exam preparation, Content Creation, and continued self-driven
@@ -67,6 +67,7 @@ useGSAP(()=>{
       </span>
       <br /><br />
       Outside of programming, I Workout, Video edit, Play video games and tennis.</p>
+      </div>
       </section>
     </div>
     </>
