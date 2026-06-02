@@ -36,9 +36,9 @@ const Work = () => {
 
   return (
     <div className='w-full h-auto text-white overflow-hidden font-Rale'>
-      <section className='max-w-[90%] xl:max-w-[85%] mx-auto px-6 pt-20 pb-20 md:px-12 lg:px-16'>
+      <section id="works" className='max-w-[90%] xl:max-w-[85%] mx-auto px-6 pt-20 pb-20 md:px-12 lg:px-16'>
         
-        <div className='works relative mb-16 md:mb-24'>
+        <div className='relative mb-16 md:mb-24'>
           <h1 className='text-5xl md:text-6xl font-bold'>My Works</h1> 
           <span className="block mt-4 h-px w-full bg-white/30"></span>
         </div> 

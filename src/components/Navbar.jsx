@@ -30,7 +30,7 @@ useGSAP(()=>{
 
         <li>
           <a
-            href="home"
+            href="#home"
             className="font-Rale relative text-white/60 text-xl tracking-widest transition-all duration-300 hover:text-white
              hover:drop-shadow-[0_0_12px_white] after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-0.5
               after:bg-white after:transition-all after:duration-300 hover:after:w-full"
@@ -41,7 +41,7 @@ useGSAP(()=>{
 
         <li>
           <a
-            href="/"
+            href="#works"
             className="font-Rale relative text-white/60 text-xl tracking-widest transition-all
              duration-300 hover:text-white hover:drop-shadow-[0_0_12px_white] after:content-[''] after:absolute
               after:left-0 after:-bottom-1 after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 hover:after:w-full"
