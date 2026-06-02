@@ -20,7 +20,7 @@ useGSAP(() => {
     ease: "power3.out",
     scrollTrigger: {
       trigger: ".skill",
-      start: "top 60%",
+      start: "top 80%",
       toggleActions: "play none none reverse",
     },
   });
@@ -29,7 +29,7 @@ useGSAP(() => {
     opacity: 0,
     scale: 0.7,
     duration: 2,
-    stagger: 0.1,
+    stagger: 0.15,
     ease: "back.out(1.7)",
     scrollTrigger: {
       trigger: ".skill",
@@ -40,16 +40,16 @@ useGSAP(() => {
 });
   return (
     <div>
-     <div className='skill w-full h-auto text-white overflow-hidden font-Rale'>
-      <section className='max-w-[90%] xl:max-w-[85%] mx-auto px-6 pt-20 pb-20 md:px-12 lg:px-16'>
+     <div className='w-full h-auto text-white overflow-hidden font-Rale'>
+      <section className='skill max-w-[90%] xl:max-w-[85%] mx-auto px-6 pt-20 pb-20 md:px-12 lg:px-16'>
         
         <div className='relative mb-16 md:mb-24'>
-          <h1 className='text-4xl md:text-6xl font-bold'>My Skills</h1> 
+          <h1 className='skill-title text-4xl md:text-6xl font-bold'>My Skills</h1> 
           <span className="block mt-4 h-px w-full bg-white/60"></span>
         </div> 
         <div className='flex flex-row'>
                 <div>
-                    <h2 className='.skill-title text-4xl mb-7 font-bold'>FRONTEND</h2>
+                    <h2 className='skill-title text-4xl mb-7 font-bold'>FRONTEND</h2>
                     <div className='skills-section flex flex-wrap gap-4'>
                             <motion.button className='skill-btn text-xl border rounded-3xl bg-gray-950 border-white p-2'
                             whileHover={{ backgroundColor: "#ffffff", color: "#000000", borderColor: "#000000", }}>
@@ -74,7 +74,7 @@ useGSAP(() => {
                     </div>
                 </div>
                 <div className='ml-50'>
-                    <h2 className='text-4xl mb-7 font-bold'>TOOLS</h2>
+                    <h2 className='skill-title text-4xl mb-7 font-bold'>TOOLS</h2>
                          <div className='flex flex-wrap gap-4'>
                             <motion.button className='skill-btn text-xl border rounded-3xl bg-gray-950 border-white p-2'
                             whileHover={{ backgroundColor: "#ffffff", color: "#000000", borderColor: "#000000", }}>
