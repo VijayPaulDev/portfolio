@@ -29,7 +29,7 @@ useGSAP(() => {
     opacity: 0,
     scale: 0.7,
     duration: 2,
-    stagger: 0.15,
+    stagger: 0.3,
     ease: "back.out(1.7)",
     scrollTrigger: {
       trigger: ".skill",
@@ -78,11 +78,11 @@ useGSAP(() => {
                          <div className='flex flex-wrap gap-4'>
                             <motion.button className='skill-btn text-xl border rounded-3xl bg-gray-950 border-white p-2'
                             whileHover={{ backgroundColor: "#ffffff", color: "#000000", borderColor: "#000000", }}>
-                             Windows
+                             Figma
                             </motion.button>
                             <motion.button className='skill-btn text-xl border rounded-3xl bg-gray-950 border-white p-2'
                             whileHover={{ backgroundColor: "#ffffff", color: "#000000", borderColor: "#000000", }}>
-                             LinuxMint
+                             Blender
                             </motion.button>
                             <motion.button className='skill-btn text-xl border rounded-3xl bg-gray-950 border-white p-2'
                             whileHover={{ backgroundColor: "#ffffff", color: "#000000", borderColor: "#000000", }}>
@@ -94,11 +94,11 @@ useGSAP(() => {
                             </motion.button>
                             <motion.button className='skill-btn text-xl border rounded-3xl bg-gray-950 border-white p-2'
                             whileHover={{ backgroundColor: "#ffffff", color: "#000000", borderColor: "#000000", }}>
-                             Blender
+                             LinuxMint
                             </motion.button>
                             <motion.button className='skill-btn text-xl border rounded-3xl bg-gray-950 border-white p-2'
                             whileHover={{ backgroundColor: "#ffffff", color: "#000000", borderColor: "#000000", }}>
-                             Figma
+                             Windows
                             </motion.button>
                             <motion.button className='skill-btn text-xl border rounded-3xl bg-gray-950 border-white p-2'
                             whileHover={{ backgroundColor: "#ffffff", color: "#000000", borderColor: "#000000", }}>
