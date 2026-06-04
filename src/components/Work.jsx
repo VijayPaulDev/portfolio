@@ -48,7 +48,7 @@ const Work = () => {
           <div className='project-box grid grid-cols-1 lg:grid-cols-2 gap-x-8 lg:gap-x-12 items-start'>
             <div className='text-content w-full'>
               <h2 className='project-title text-2xl sm:text-3xl font-bold tracking-tight mb-6'>
-                1- Mocktails Brochure Website :
+                1 - Mocktails Brochure Website :
               </h2>
               <div className='project-paragraphs text-base md:text-lg text-neutral-400 leading-relaxed space-y-6'>
                 <p>- Engineered an brochure website for a luxury cocktail lounge using JavaScript and GSAP (ScrollTrigger & SplitText).</p>
@@ -64,7 +64,23 @@ const Work = () => {
           <div className='project-box grid grid-cols-1 lg:grid-cols-2 gap-x-8 lg:gap-x-12 items-start'>
             <div className='text-content w-full'>
               <h2 className='project-title text-2xl sm:text-3xl font-bold tracking-tight mb-6'>
-                2- Weather Application :
+                2 - Portfolio Website :
+              </h2>
+              <div className='project-paragraphs text-base md:text-lg text-neutral-400 leading-relaxed space-y-6'>
+                <p>- Made a website for my Portfolio showcase using React, GSAP (ScrollTrigger & SplitText) and Motion.</p>
+                <p>- Utilized Motion for smooth and unique button transition animations and GSAP SplitText for smooth text animation upon triggering scroll.</p>
+                <p>- Implemented GSAP ScrollTrigger to control complex timeline animations, tying user scroll depth to smooth CSS grid transformations, parallax imagery, and reveal effects.</p>
+              </div>
+            </div>
+            <div className='image-container w-full flex justify-center lg:justify-end'>
+              <img className='project-img w-full max-w-xl h-auto rounded-lg shadow-2xl object-cover border border-white/10' src='src/images/portfolio.png' alt="Mocktail Project" />
+            </div>
+          </div>
+
+          <div className='project-box grid grid-cols-1 lg:grid-cols-2 gap-x-8 lg:gap-x-12 items-start'>
+            <div className='text-content w-full'>
+              <h2 className='project-title text-2xl sm:text-3xl font-bold tracking-tight mb-6'>
+              3 - Weather Application :
               </h2>
               <div className='project-paragraphs text-base md:text-lg text-neutral-400 leading-relaxed space-y-6'>
                 <p>- Developed a type-safe, responsive weather application utilizing React and TypeScript to deliver real-time, global forecast metrics.</p>
@@ -80,7 +96,7 @@ const Work = () => {
           <div className='project-box grid grid-cols-1 lg:grid-cols-2 gap-x-8 lg:gap-x-12 items-start'>
             <div className='text-content w-full'>
               <h2 className='project-title text-2xl sm:text-3xl font-bold tracking-tight mb-6'>
-                3- Todolist Application :
+                4 - Todolist Application :
               </h2>
               <div className='project-paragraphs text-base md:text-lg text-neutral-400 leading-relaxed space-y-6'>
                 <p>- A minimalist task management app built to use DOM manipulation and clean user interactions.</p>
