@@ -10,6 +10,16 @@ useGSAP(()=>{
   const nameSplit = new SplitText('.name', { type: 'chars, words'});
   const titleSplit = new SplitText('.title', { type: 'lines'});
   const aboutSplit = new SplitText('.about', { type: 'lines'});
+  const PicAnim = document.querySelectorAll('.pic');
+
+  gsap.from(PicAnim,{
+    filter: "blur(10px)",
+    opacity: 0,
+    duration: 2,
+    ease: 'power3.out',
+    stagger: 0.05,
+    delay: 1.5,
+  })
   
   gsap.from(nameSplit.chars,{
     opacity: 0,
@@ -40,16 +50,20 @@ useGSAP(()=>{
   return (
     <>
     <div className="relative w-full min-h-screen mb-0 gap-0 pb-30">
-    <section id="home" className="flex flex-col justify-center items-center h-screen max-w-7xl mx-auto px-6 pt-100 pb-0 md:px-12">
-      <h1 className="name text-9xl text-white -translate-x-90 -translate-y-30 tracking-widest font-Rale font-thin">VIJAY PAUL</h1>
-      <p className="title text-white -translate-x-127 -translate-y-30 text-2xl mt-7 font-Gsans">Front-End / Motion / Interactive UI Developer</p>
-      <p className="title text-white -translate-x-140 translate-y-60 text-2xl mt-7 font-Gsans">For business inquiries, email me at <br></br>vjpaul03@gmail.com</p>
-      
+    <section id="home" className="flex flex-col justify-center items-center h-screen max-w-8xl mx-auto px-6 pt-100 pb-0 md:px-12">
       <div>
-      <p className="about text-white translate-x-280 -translate-y-40 font-Rale text-3xl">ABOUT ME
+      <h1 className="name text-9xl text-white -translate-x-90 -translate-y-40 tracking-widest font-Rale font-thin">VIJAY PAUL</h1>
+      <p className="title text-white -translate-x-80 -translate-y-40 text-2xl mt-7 font-Gsans">Front-End / Motion / Interactive UI Developer</p>
+      </div>
+      <div className="grid grid-cols-1 lg:grid-cols-2">
+      <div className="pl-85">
+        <img className="pic h-100 w-140 object-fill" src="src/images/motivation.png"></img>
+      </div>
+      <div className="pl-55 pt-10">
+      <p className="about text-white font-Rale text-3xl">ABOUT ME
         <span className="block mt-3 h-px w-screen bg-white/60"></span>
       </p>
-      <p className="about text-white translate-x-280 -translate-y-33 font-Rale text-[20px]"> 
+      <p className="about text-white font-Rale text-[20px]"> 
       After completing my B.Tech and MBA, I shifted focus toward independent work,
       <span className="block mt-2">
       including Govt-exam preparation, Content Creation, and continued self-driven
@@ -67,6 +81,7 @@ useGSAP(()=>{
       </span>
       <br /><br />
       Outside of programming, I Workout, Video edit, Play video games and tennis.</p>
+      </div>
       </div>
       </section>
     </div>

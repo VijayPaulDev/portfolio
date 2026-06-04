@@ -7,7 +7,6 @@ import About from './components/About.jsx';
 import Navbar from './components/Navbar.jsx';
 import Work from './components/Work.jsx';
 import Skills from './components/Skills.jsx';
-
 gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {

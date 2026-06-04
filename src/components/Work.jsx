@@ -1,38 +1,50 @@
-import React, { useEffect } from 'react';
+import { useGSAP } from "@gsap/react";
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { SplitText } from 'gsap/SplitText';
 
 const Work = () => {
 
-  useEffect(() => {
-    const allProjects = document.querySelectorAll('.project-box');
+useGSAP(() => {
+  const allProjects = document.querySelectorAll('.project-box');
 
-    allProjects.forEach((project) => {
-      const projectTitle = project.querySelector('.project-title');
-      const projectParagraphs = project.querySelector('.project-paragraphs');
-      const projectImage = project.querySelector('.project-img');
+  allProjects.forEach((project) => {
+    const projectTitle = project.querySelector('.project-title');
+    const projectParagraphs = project.querySelector('.project-paragraphs');
+    const projectImage = project.querySelector('.project-img');
 
-      const textSplit = new SplitText(projectParagraphs, {
-        type: 'lines, words',
-        linesClass: 'overflow-hidden block'
-      });
-
-      const tl = gsap.timeline({
-        scrollTrigger: {
-          trigger: project,
-          start: 'top 55%',
-          end: 'bottom 20%',
-          toggleActions: 'play none none reverse', 
-        }
-      });
-
-      tl.fromTo(projectTitle, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.6, ease: 'power3.out' })
-        .fromTo(textSplit.words, { opacity: 0, y: 40 }, { opacity: 1, y: 0, stagger: 0.02, duration: 0.8, ease: 'power4.out' }, "-=0.4")
-        .fromTo(projectImage, { opacity: 0, x: 100, scale: 0.95 }, { opacity: 1, x: 0, scale: 1, duration: 1, ease: 'power3.out' }, "-=0.6");
+    const textSplit = new SplitText(projectParagraphs, {
+      type: 'lines,words',
+      linesClass: 'overflow-hidden block'
     });
 
+    gsap.timeline({
+      scrollTrigger: {
+        trigger: project,
+        start: 'top 55%',
+        end: 'bottom 20%',
+        toggleActions: 'play none none reverse',
+      }
+    })
+    .fromTo(
+      projectTitle,
+      { opacity: 0, y: 30 },
+      { opacity: 1, y: 0, duration: 0.6 }
+    )
+    .fromTo(
+      textSplit.words,
+      { opacity: 0, y: 40 },
+      { opacity: 1, y: 0, stagger: 0.02, duration: 0.8 },
+      "-=0.4"
+    )
+    .fromTo(
+      projectImage,
+      { opacity: 0, x: 100, scale: 0.95 },
+      { opacity: 1, x: 0, scale: 1, duration: 1 },
+      "-=0.6"
+    );
   }, []);
+});
 
   return (
     <div className='w-full h-auto text-white overflow-hidden font-Rale'>
