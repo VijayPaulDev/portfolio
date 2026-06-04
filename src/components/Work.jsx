@@ -21,7 +21,7 @@ useGSAP(() => {
     gsap.timeline({
       scrollTrigger: {
         trigger: project,
-        start: 'top 55%',
+        start: 'top 70%',
         end: 'bottom 20%',
         toggleActions: 'play none none reverse',
       }
@@ -48,7 +48,7 @@ useGSAP(() => {
 
   return (
     <div className='w-full h-auto text-white overflow-hidden font-Rale'>
-      <section id="works" className='max-w-[90%] xl:max-w-[85%] mx-auto px-6 pt-20 pb-20 md:px-12 lg:px-16'>
+      <section id="works" className='max-w-[90%] xl:max-w-[85%] mx-auto px-6 pt-1 pb-20 md:px-12 lg:px-16'>
         
         <div className='relative mb-16 md:mb-24'>
           <h1 className='text-5xl md:text-6xl font-bold'>My Works</h1> 

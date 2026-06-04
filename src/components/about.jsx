@@ -15,10 +15,10 @@ useGSAP(()=>{
   gsap.from(PicAnim,{
     filter: "blur(10px)",
     opacity: 0,
-    duration: 2,
+    duration: 2.5,
     ease: 'power3.out',
-    stagger: 0.05,
-    delay: 1.5,
+    stagger: 0.09,
+    delay: 2.7,
   })
   
   gsap.from(nameSplit.chars,{
@@ -56,10 +56,10 @@ useGSAP(()=>{
       <p className="title text-white -translate-x-80 -translate-y-40 text-2xl mt-7 font-Gsans">Front-End / Motion / Interactive UI Developer</p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2">
-      <div className="pl-85">
-        <img className="pic h-100 w-140 object-fill" src="src/images/motivation.png"></img>
+      <div className="pl-75">
+        <img className="pic h-100 w-140 object-fill rounded-2xl" src="src/images/motivation.png"></img>
       </div>
-      <div className="pl-55 pt-10">
+      <div className="pl-45 pt-10">
       <p className="about text-white font-Rale text-3xl">ABOUT ME
         <span className="block mt-3 h-px w-screen bg-white/60"></span>
       </p>
