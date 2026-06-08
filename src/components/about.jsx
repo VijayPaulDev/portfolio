@@ -57,7 +57,7 @@ useGSAP(()=>{
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2">
       <div className="pl-75">
-        <img className="pic h-100 w-140 object-fill rounded-2xl" src="src/images/motivation.png"></img>
+        <img className="pic h-100 w-140 object-fill rounded-2xl" src="/public/images/motivation.png"></img>
       </div>
       <div className="pl-45 pt-10">
       <p className="about text-white font-Rale text-3xl">ABOUT ME
