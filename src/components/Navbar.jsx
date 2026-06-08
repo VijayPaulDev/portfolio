@@ -51,20 +51,20 @@ useGSAP(()=>{
         </li>
 
       </ul>
-        <div className="flex flex-col gap-8 translate-y-10 navbar">
+        <div className="flex flex-col translate-y-10 navbar">
 
         <a href="https://github.com/VijayPaulDev" target="_blank" className="text-white/60 text-2xl transition-all 
-        duration-300 hover:text-white hover:scale-110 hover:drop-shadow-[0_0_12px_white]">
+        duration-300 hover:text-white hover:scale-110 hover:drop-shadow-[0_0_12px_white] pb-10">
           <FaGithub />
         </a>
 
         <a href="https://www.linkedin.com/in/vijay-paul-dev/" target="_blank" className="text-white/60 text-2xl transition-all 
-        duration-300 hover:text-white hover:scale-110 hover:drop-shadow-[0_0_12px_white]">
+        duration-300 hover:text-white hover:scale-110 hover:drop-shadow-[0_0_12px_white] pb-10">
           <FaLinkedin />
         </a>
 
         <a href="mailto:vjpaul03@gmail.com" className="text-white/60 text-2xl transition-all 
-        duration-300 hover:text-white hover:scale-110 hover:drop-shadow-[0_0_12px_white]">
+        duration-300 hover:text-white hover:scale-110 hover:drop-shadow-[0_0_12px_white] pb-10">
           <FaEnvelope />
         </a>
 

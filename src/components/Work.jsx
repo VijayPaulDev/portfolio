@@ -69,7 +69,7 @@ useGSAP(() => {
               </div>
             </div>
             <div className='image-container w-full flex justify-center lg:justify-end'>
-              <img className='project-img w-full max-w-xl h-auto rounded-lg shadow-2xl object-cover border border-white/10' src='/public/images/mocktail.png' alt="Mocktail Project" />
+              <img type="png" className='project-img w-full max-w-xl h-auto rounded-lg shadow-2xl object-cover border border-white/10' src='/images/mocktail.png' alt="Mocktail Project" />
             </div>
           </div>
 
@@ -85,7 +85,7 @@ useGSAP(() => {
               </div>
             </div>
             <div className='image-container w-full flex justify-center lg:justify-end'>
-              <img className='project-img w-full max-w-xl h-auto rounded-lg shadow-2xl object-cover border border-white/10' src='public/images/portfolio.png' alt="portfolio Project" />
+              <img type="png" className='project-img w-full max-w-xl h-auto rounded-lg shadow-2xl object-cover border border-white/10' src='/images/portfolio.png' alt="portfolio Project" />
             </div>
           </div>
 
@@ -101,7 +101,7 @@ useGSAP(() => {
               </div>
             </div>
             <div className='image-container w-full flex justify-center lg:justify-end'>
-              <img className='project-img w-full max-w-xl h-auto rounded-lg shadow-2xl object-cover border border-white/10' src='public/images/weather.png' alt="weather Project" />
+              <img type="png" className='project-img w-full max-w-xl h-auto rounded-lg shadow-2xl object-cover border border-white/10' src='/images/weather.png' alt="weather Project" />
             </div>
           </div>
 
@@ -117,7 +117,7 @@ useGSAP(() => {
               </div>
             </div>
             <div className='image-container w-full flex justify-center lg:justify-end'>
-              <img className='project-img w-full max-w-xl h-auto rounded-lg shadow-2xl object-cover border border-white/10' src='public/images/todolist.png' alt="todolist Project" />
+              <img className='project-img w-full max-w-xl h-auto rounded-lg shadow-2xl object-cover border border-white/10' src='/images/todolist.png' alt="todolist Project" />
             </div>
           </div>
 
